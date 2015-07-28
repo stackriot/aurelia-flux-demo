@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Aurelia</title>
+
+    <link rel="stylesheet" href="jspm_packages/github/Dogfalo/materialize@0.97.0/dist/css/materialize.css">
+    <link rel="stylesheet" href="styles/styles.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+
+  <body aurelia-app="main">
+    <div class="splash">
+      <h5>Loading application</div>
+      <div class="progress">
+        <div class="indeterminate"></div>
+      </div>
+    </div>
+
+    <script src="jspm_packages/system.js"></script>
+    <script src="config.js"></script>
+    <script>
+      System.import('aurelia-bootstrapper');
+    </script>
+  </body>
+</html>

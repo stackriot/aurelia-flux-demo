@@ -1,0 +1,38 @@
+<template>
+  <require from='./elements/products'></require>
+  <require from='./elements/cart'></require>
+
+  <header>
+    <nav class="light-blue lighten-1" role="navigation">
+      <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo">Aurelia Flux Demo</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <div class="container">
+      <div class="section">
+        <div class="row">
+          <div class="col s12 m9">
+            <products></products>        
+          </div>
+          <div class="col s12 m3">
+            <cart></cart>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="page-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col l12 s12">
+          <h5 class="white-text">Aurelia Flux Demo</h5>
+          <p class="grey-text text-lighten-4">This is an implementation of the shopping cart application used in the <a class="grey-text text-lighten-2" href="https://github.com/voronianski/flux-comparison">Flux Comparison by Example</a>. It uses the <a class="grey-text text-lighten-2" href="https://github.com/tfrydrychewicz/aurelia-flux">aurelia-flux plugin</a>.</p>
+          <p class="grey-text text-lighten-4">It was inspired by the <a class="grey-text text-lighten-2" href="https://github.com/txchen/feplay/tree/gh-pages/riot_flux">RiotControl</a> version.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+</template>

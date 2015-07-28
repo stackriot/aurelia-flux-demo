@@ -1,0 +1,19 @@
+<template>
+  <div class="col s12 m6 l4">
+    <div class="card">
+      <div class="card-image">
+        <img src.bind="product.image">
+      </div>
+      <div class="card-content">
+        <span class="card-title black-text">${product.title}</span>
+      </div>
+      <div class="card-action right-align">
+        <button class="btn waves-effect waves-light"
+          click.delegate="addToCart()"
+          disabled="${product.inventory === 0 ? 'disabled': ''}">
+            ${ product.inventory > 0 ? 'Add to cart' : 'Sold Out' } (&euro;${ product.price})
+        </button>
+      </div>
+    </div>
+  </div>
+</template>

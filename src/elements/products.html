@@ -1,0 +1,7 @@
+<template>
+  <require from='./product-item'></require>
+
+  <div class="shop-wrap">
+    <product-item repeat.for="product of products" product.bind="product"></product-item>
+  </div>
+</template>
