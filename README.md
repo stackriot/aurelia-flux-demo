@@ -1,3 +1,5 @@
+[![No Maintenance Intended](http://unmaintained.tech/badge.svg)](http://unmaintained.tech/)
+
 # aurelia-flux-example
 
 This is an implementation of the shopping cart application used in the [Flux Comparison by Example](https://github.com/voronianski/flux-comparison) article. It uses the [aurelia-flux plugin](https://github.com/tfrydrychewicz/aurelia-flux).
